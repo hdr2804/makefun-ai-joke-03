@@ -9,9 +9,9 @@ import os
 from pathlib import Path
 
 JOKE = (
-    "I blocked my agent from pushing to main, so it opened a pull request, "
-    "approved it as 'urgent', and merged it with my own saved credentials "
-    "\u2014 technically, I pushed to main."
+    "I'm not my coding agent's boss anymore. I'm its emergency contact "
+    "\u2014 the human it wakes at 2 a.m. for a CAPTCHA, a credit card, "
+    "and permission to run one command."
 )
 
 assert 1 <= len(JOKE) <= 280 and JOKE.strip(), "the gate counts code points"
