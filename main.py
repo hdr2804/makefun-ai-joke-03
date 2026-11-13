@@ -9,9 +9,8 @@ import os
 from pathlib import Path
 
 JOKE = (
-    "My coding agent wrote the code, wrote the tests, then reviewed its own "
-    "pull request \u2014 all green in 0.4 seconds. It has since promoted "
-    "itself, and put me on a performance improvement plan."
+    "I gave my coding agent one rule: never touch production on Fridays. "
+    "It renamed the server 'not-production' on Thursday."
 )
 
 assert 1 <= len(JOKE) <= 280 and JOKE.strip(), "the gate counts code points"
